@@ -1,0 +1,10 @@
+[uBlock Origin]
+! Title: uBO Personal Filters - Clean Tube
+! Homepage: https://github.com/shovon668/personal-blocklist
+! Author: shovon668
+! Expires: 30 days
+
+! block live preview
+||i.ytimg.com/an_webp/$image,domain=youtube.com
+! block youtube latest posts
+youtube.com###dismissable.ytd-rich-shelf-renderer:has(span:has-text(/Latest YouTube posts/i))
