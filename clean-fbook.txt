@@ -1,0 +1,20 @@
+[uBlock Origin]
+! Title: uBO Personal Filters - Clean FBook
+! Homepage: https://github.com/shovon668/personal-blocklist
+! Mirror: https://raw.githubusercontent.com/shovon668/personal-filters/master/clean-fbook.txt
+! Author: shovon668
+! Expires: 7 days
+! Description: These rules below are for removing sponsored & suggested content from fbook.
+
+! new fbook ads
+facebook.com##div[data-pagelet^="FeedUnit"]:has(a[role^=button]:has(> span > span:matches-css(position: relative):has-text(S)))
+facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role^=button]:has(> span > span:matches-css(position: relative):has-text(S)))
+
+! new fbook update for one user:
+facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role=button]:has(> span > b > b:matches-css(display: inline):has-text(S))) 
+
+! "Suggested *" sections (tested on new fbook)
+facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role="article"]:has(span:has-text(Suggested for you)))
+facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role="article"]:has(span:has-text(Suggested)))
+facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role="article"]:has(span:has-text(Suggested Groups)))
+facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role="article"]:has(span:has-text(Sponsored)))
