@@ -8,7 +8,7 @@ A bs free youtube filter that will remove live preview on mouse hover and latest
 ## Clean FBook
 An ad free facebook exprience (new facebook)
 
-[Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/shovon668/personal-filters/master/clean-fbook.txt "Subscribe to Clean Book Filters")
+[Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/shovon668/personal-filters/master/clean-fbook.txt&title=uBO-Personal-Filters-Clean-FBook "Subscribe to Clean Book Filters")
 
 ## Clean Look
 Filterlist for outlook.com
